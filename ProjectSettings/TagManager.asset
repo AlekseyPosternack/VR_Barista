@@ -7,6 +7,7 @@ TagManager:
   - Smoke
   - LeftHand
   - RightHand
+  - BlindFilter
   layers:
   - Default
   - TransparentFX
