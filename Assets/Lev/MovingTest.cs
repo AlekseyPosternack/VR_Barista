@@ -27,12 +27,14 @@ public class MovingTest : MonoBehaviour
         distanceToFilter = Vector3.Distance(filterTransform.position, transform.position);
         if (distanceToFilter <= 0.1f)
         {
-            addBlindFilter(transform);
+            addBlindFilter(transform, filterTransform);
         }
     }
 
-    void addBlindFilter(Transform leverTransform)
-    { 
+    void addBlindFilter(Transform leverTransform, Transform filterTransform)
+    {
+        filterTransform.parent = leverTransform.parent;
+        
         Debug.Log("addBlindFilter DONE ");
     }
 
