@@ -96,7 +96,7 @@ public class WorkEndScenario : MonoBehaviour
         //TODO make addChemicals()
         
         playerActionNumber += 1;
-        Debug.Log("addChemicals DONE ");
+        // Debug.Log("addChemicals DONE ");
     }
 
     void setUpHolder() //into work group

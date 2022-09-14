@@ -8,6 +8,8 @@ TagManager:
   - LeftHand
   - RightHand
   - BlindFilter
+  - ChemsParts
+  - WaterFall
   layers:
   - Default
   - TransparentFX
